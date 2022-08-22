@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body {
+    display: grid;
+    grid-template-columns: 1fr 5fr; 
+}
+.left{
+    background-color:#FAFBFD ;
+    float: left;
+    
+}
+.right{
+    background-color: #FFFFFF;
+    float: right;
+    
+}
+.head-left{
+    text-align: center; /* canh giữa */
+    padding: 10px;
+    margin: 30px;
+    margin-bottom: 70px;
+    color: black;
+    font-weight: bold; /* chữ đậm */
+    font-size: 13px;
+    
+}
+.head-left span{
+    color: #F7542E;
+}
+.container-left{
+    padding-left: 30px;
+    
+}
+ul{
+    list-style: none; /* bỏ dấu chấm */
+}
+ul li{
+    padding: 6px;
+    margin: 10px;
+    color: #9E9E9E;
+    font-size: 14px;
+}
+.li{
+    color: #090F31;
+}
+h2{
+    font-weight: normal;
+    padding: 50px;
+    padding-bottom: 20px;
+    color: #4F4F4F;
+    font-size: 24px;
+
+}
+table tr td div{
+    margin: 10px;
+    margin-left: 50px;
+}
+table tr td div span{
+    font-size: 12px;
+}
+table tr td div button {
+    padding: 8px 15px;
+    border-radius: 8px ;
+    border: 0px;
+    font-size: 14px;
+    margin-top: 10px;
+    
+}
+table tr td div button i{
+    margin: 0px  8px;
+
+}
+.bg-white{
+    background: #FFFFFF;
+}
+.bg-blue {
+    background: #3D5AFE;
+
+}
+.bg-blue-2{
+    background: #0039CB;
+}
+.bg-blue-1{
+    background: rgba(41, 98, 255, 0.1);
+}
+.bg-gray{
+    background: #E0E0E0;
+}
+.bg-gray-1{
+    background: #AEAEAE;
+}
+.bg-gray-3{
+    background: #455A64;
+}
+.bg-gray-4{
+    background: #1C313A;
+}
+.bg-red{
+    background: #D32F2F;
+}
+.bg-red-1{
+    background: #9A0007;
+}
+.text-white {
+    color:  #FFFFFF;
+}
+.text-black{
+    color: #3F3F3F;
+}
+.text-blue{
+    color: #3D5AFE;
+}
+
+.border-blue {
+    border: 1px solid #3D5AFE    ;
+}
+.text-gray{
+    color: #9E9E9E;
+}
+
+.color-span-1{
+   color: #333333;
+}
+.color-span-2{
+    color: #828282;
+}
+.color-span-3{
+    color: #000000;
+}
+
+.footer-right{
+    padding: 50px;
+}
+.footer-right .text-footer-right{
+    color: #828282;
+    font-size: 12px;
+}
+.footer-right .text{
+    font-size: 14px;
+    color: #A9A9A9;
+}
+.footer-right .text a{
+    font-weight: bold;
+    color: #A9A9A9;
+}
